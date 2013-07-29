@@ -5,9 +5,14 @@ date:   2013-07-29 12:42:33
 categories: facebook hackercup
 ---
 
+#What were my mistakes in Facebook Hackercup 2012?
+
 ![Facebook Hackercup](/assets/images/hackercup.jpg "Facebook Hackercup")
 
-Last year, I took part in Facebook hacker cup 2012. There were three brain storming questions presented and solving any one of them would qualify me but i was quite unlucky as i couldn't pass through the qualification round.
+
+The [Facebook Hacker Cup](http://https://www.facebook.com/hackercup "Facebook Hacker Cup") is an annual worldwide programming competition where hackers compete against each other for fame, fortune, glory and a shot at the coveted Hacker Cup.
+
+Last year, I took part in Facebook Hacker Cup 2012. There were three brain storming questions presented and solving any one of them would qualify me but i was quite unlucky as i couldn't pass through the qualification round.
 
 The problem that i tried solving was [Alphabet soup]({{ site.url }}/assets/files/alphabet-soup/alphabet-soup.pdf) where i was provided with the [file]({{ site.url }}/assets/files/alphabet-soup/alphabet_soup.txt) to check whether my program would produce the correct result. The result was to be submitted within six minutes time-frame and any programming language could be used so i used the c programming language. The program i had written to solve the problem was: <script src="https://gist.github.com/467f46c5cde7b2422ffe.js"> </script>
 
