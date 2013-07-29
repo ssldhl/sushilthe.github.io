@@ -1,2 +1,3 @@
 name: sushilthe's blog
 pygments: true
+permalink: /:title.html
