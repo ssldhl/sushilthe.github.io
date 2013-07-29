@@ -9,7 +9,7 @@ categories: facebook hackercup
 
 Last year, I took part in Facebook hacker cup 2012. There were three brain storming questions presented and solving any one of them would qualify me but i was quite unlucky as i couldn't pass through the qualification round.
 
-The problem that i tried solving was [Alphabet soup]({{ site.url }}/assets/files/alphabet-soup/alphabet-soup.pdf) where i was provided with the [file]({{ site.url }}/assets/files/alphabet-soup/alphabet_soup.txt) to check whether my program would produce the correct result. The result was to be submitted within six minutes time-frame and any programming language could be used so i used the c programming language. The program i had written to solve the problem was: {% gist 931c1c8d465a04042403 %}
+The problem that i tried solving was [Alphabet soup]({{ site.url }}/assets/files/alphabet-soup/alphabet-soup.pdf) where i was provided with the [file]({{ site.url }}/assets/files/alphabet-soup/alphabet_soup.txt) to check whether my program would produce the correct result. The result was to be submitted within six minutes time-frame and any programming language could be used so i used the c programming language. The program i had written to solve the problem was: <script src='https://gist.github.com/467f46c5cde7b2422ffe.js'> </script>
 
 This program produced the [output]({{ site.url }}/assets/files/alphabet-soup/output-bad.txt).
 
