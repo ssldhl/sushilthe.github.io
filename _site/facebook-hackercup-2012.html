@@ -29,58 +29,11 @@
 
 <p>Last year i took part in Facebook hacker cup 2012. There were three brain storming questions presented and solving any one of them would qualify me but i was quite unlucky as i couldn&#8217;t pass through the qualification round.</p>
 
-<p>The problem i tried solving was Alphabet soup.</p>
+<p>The problem i tried solving was <a href='/assets/files/alphabet-soup/alphabet-soup.pdf'>Alphabet soup</a> where i was provided with the <a href='/assets/files/alphabet-soup/alphabet_soup.txt'>file</a> to check whether my program would produce the correct result. The result was to be submitted within six minutes time-frame and any programming language could be used so i used the c programming language. The program i had written to solve the problem was: <script src='https://gist.github.com/467.js?file=f46c5cde7b2422ffe'> </script></p>
 
-<h2 id='alphabet_soup'>Alphabet Soup</h2>
+<p>This program produced the <a href='/assets/files/alphabet-soup/output-bad.txt'>output</a>.</p>
 
-<p>Alfredo Spaghetti really likes soup,especially when it contains alphabet pasta. Every day he constructs a sentence from letters, places the letters into a bowl of broth and enjoys delicious alphabet soup.</p>
-
-<p>Today, after constructing the sentence, Alfredo remembered that the Facebook Hacker Cup starts today! Thus, he decided to construct the phrase &#8220;HACKERCUP&#8221;. As he already added the letters to the broth, he is stuck with the letters he originally selected. Help Alfredo determine how many times he can place the word &#8220;HACKERCUP&#8221; side-by-side using the letters in his soup.</p>
-
-<h2 id='input'>Input</h2>
-
-<p>The first line of the input file contains a single integer T: the number of test cases. T lines follow, each representing a single test case with a sequence of upper-case letters and spaces: the original sentence Alfredo constructed.</p>
-
-<h2 id='output'>Output</h2>
-
-<p>Output T lines, one for each test case. For each case, output &#8220;Case #t: n&#8221;, where t is the test case number (starting from 1) and n is the number of times the word &#8220;HACKERCUP&#8221; can be placed side-by-side using the letters from the sentence.</p>
-
-<h2 id='constraints'>Constraints</h2>
-
-<ul>
-<li>1 &lt; T ≤ 20</li>
-
-<li>Sentences contain only the upper-case letters A-Z and the space character</li>
-
-<li>Each sentence contains at least one letter, and contains at most 1000 characters, including spaces</li>
-</ul>
-
-<h2 id='example_input'>Example input</h2>
-
-<p>5</p>
-
-<p>WELCOME TO FACEBOOK HACKERCUP</p>
-
-<p>CUP WITH LABEL HACKERCUP BELONGS TO HACKER</p>
-
-<p>QUICK CUTE BROWN FOX JUMPS OVER THE LAZY DOG</p>
-
-<p>MOVE FAST BE BOLD</p>
-
-<p>HACK THE HACKERCUP</p>
-
-<h2 id='example_output'>Example Output</h2>
-
-<p>Case #1: 1</p>
-
-<p>Case #2: 2</p>
-
-<p>Case #3: 1</p>
-
-<p>Case #4: 0</p>
-
-<p>Case #5: 1</p>
-<script src='https://gist.github.com/6102828.js'> </script>
+<p>Unfortunately, i was not able to proceed as my program was incorrect. The possible reason is that i have used string of length 1000 which can only hold 999 characters and the loop for(i=0;i&lt;=7;i++) has no sense as the maximum number that hold<span /> can handle is 6. So, probably the right solution would be:</p>
 </div>
 
             <div class="footer">

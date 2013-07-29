@@ -7,53 +7,12 @@ categories: facebook hackercup
 
 ![Facebook Hackercup](/assets/images/hackercup.jpg "Facebook Hackercup")
 
-Last year i took part in Facebook hacker cup 2012. There were three brain storming questions presented and solving any one of them would qualify me but i was quite unlucky as i couldn't pass through the qualification round.
+Last year, I took part in Facebook hacker cup 2012. There were three brain storming questions presented and solving any one of them would qualify me but i was quite unlucky as i couldn't pass through the qualification round.
 
-The problem i tried solving was Alphabet soup.
-##Alphabet Soup
+The problem that i tried solving was [Alphabet soup]({{ site.url }}/assets/files/alphabet-soup/alphabet-soup.pdf) where i was provided with the [file]({{ site.url }}/assets/files/alphabet-soup/alphabet_soup.txt) to check whether my program would produce the correct result. The result was to be submitted within six minutes time-frame and any programming language could be used so i used the c programming language. The program i had written to solve the problem was: {% gist 467f46c5cde7b2422ffe %}
 
-Alfredo Spaghetti really likes soup,especially when it contains alphabet pasta. Every day he constructs a sentence from letters, places the letters into a bowl of broth and enjoys delicious alphabet soup.
+This program produced the [output]({{ site.url }}/assets/files/alphabet-soup/output-bad.txt).
 
-Today, after constructing the sentence, Alfredo remembered that the Facebook Hacker Cup starts today! Thus, he decided to construct the phrase "HACKERCUP". As he already added the letters to the broth, he is stuck with the letters he originally selected. Help Alfredo determine how many times he can place the word "HACKERCUP" side-by-side using the letters in his soup.
+Unfortunately, i was not able to proceed as my program was incorrect. The possible reason is that i have used string of length 1000 which can only hold 999 characters and the loop for(i=0;i<=7;i++) has no sense as the maximum number that hold[] can handle is 6. So, probably the right solution would be: {% gist 6103050 %}
 
-##Input
-
-The first line of the input file contains a single integer T: the number of test cases. T lines follow, each representing a single test case with a sequence of upper-case letters and spaces: the original sentence Alfredo constructed.
-
-##Output
-
-Output T lines, one for each test case. For each case, output "Case #t: n", where t is the test case number (starting from 1) and n is the number of times the word "HACKERCUP" can be placed side-by-side using the letters from the sentence.
-
-##Constraints
-
-* 1 < T ≤ 20
-* Sentences contain only the upper-case letters A-Z and the space character
-* Each sentence contains at least one letter, and contains at most 1000 characters, including spaces
-
-##Example input
-
-5
-
-WELCOME TO FACEBOOK HACKERCUP
-
-CUP WITH LABEL HACKERCUP BELONGS TO HACKER
-
-QUICK CUTE BROWN FOX JUMPS OVER THE LAZY DOG
-
-MOVE FAST BE BOLD
-
-HACK THE HACKERCUP
-
-##Example Output
-
-Case #1: 1
-
-Case #2: 2
-
-Case #3: 1
-
-Case #4: 0
-
-Case #5: 1
-
-{% gist 6102828 %}
+This program produced the [output]({{ site.url }}/assets/files/alphabet-soup/output-correct.txt), which was the correct output.
