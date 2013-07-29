@@ -7,10 +7,10 @@ categories: facebook hackercup
 
 #What were my mistakes in Facebook Hackercup 2012?
 
-![Facebook Hackercup](/assets/images/hackercup.jpg "Facebook Hackercup")
+![SimpleCV GUI](/assets/images/simplecv-gui.png "SimpleCV GUI")
 
 
-The [Facebook Hacker Cup](http://https://www.facebook.com/hackercup "Facebook Hacker Cup") is an annual worldwide programming competition where hackers compete against each other for fame, fortune, glory and a shot at the coveted Hacker Cup.
+The [Facebook Hacker Cup](https://www.facebook.com/hackercup "Facebook Hacker Cup") is an annual worldwide programming competition where hackers compete against each other for fame, fortune, glory and a shot at the coveted Hacker Cup.
 
 Last year, I took part in Facebook Hacker Cup 2012. There were three brain storming questions presented and solving any one of them would qualify me but i was quite unlucky as i couldn't pass through the qualification round.
 

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Facebook Hackercup 2012</title>
+        <title>SimpleCV Graphical User Interface</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- syntax highlighting CSS -->
@@ -69,25 +69,49 @@
       <div class="bs-docs-section">
         <div class="page-header">
           <h1 id="overview">
-						Facebook Hackercup 2012
+						SimpleCV Graphical User Interface
 					</h1>
     		</div>
-    		<p class="lead">29 Jul 2013</p>
-				<h1 id='what_were_my_mistakes_in_facebook_hackercup_2012'>What were my mistakes in Facebook Hackercup 2012?</h1>
+    		<p class="lead">30 Jul 2013</p>
+				<p><a href='http://www.simplecv.org/' title='Simple CV'>SimpleCV</a> which is one of the easiest image processing library to manipulate/process images either from a camera or files stored locally, written in python programming language currently has a Character User Interface which requires lots of understanding about the programming language itself along with the requirement to remember all the syntax and structures of the SimpleCV.</p>
 
-<p><img alt='SimpleCV GUI' src='/assets/images/simplecv-gui.png' /></p>
+<p>Having the image processing library in a GUI form will have following advantages:</p>
 
-<p>The <a href='https://www.facebook.com/hackercup' title='Facebook Hacker Cup'>Facebook Hacker Cup</a> is an annual worldwide programming competition where hackers compete against each other for fame, fortune, glory and a shot at the coveted Hacker Cup.</p>
+<ol>
+<li>A user without a bare knowledge of SimpleCV can also easily use it.</li>
 
-<p>Last year, I took part in Facebook Hacker Cup 2012. There were three brain storming questions presented and solving any one of them would qualify me but i was quite unlucky as i couldn&#8217;t pass through the qualification round.</p>
+<li>No need to remember the structures and the programming language in which the library was written.</li>
 
-<p>The problem that i tried solving was <a href='/assets/files/alphabet-soup/alphabet-soup.pdf'>Alphabet soup</a> where i was provided with the <a href='/assets/files/alphabet-soup/alphabet_soup.txt'>file</a> to check whether my program would produce the correct result. The result was to be submitted within six minutes time-frame and any programming language could be used so i used the c programming language. The program i had written to solve the problem was: <script src='https://gist.github.com/467f46c5cde7b2422ffe.js'> </script></p>
+<li>Visualize the end results immediately</li>
 
-<p>This program produced the <a href='/assets/files/alphabet-soup/output-bad.txt'>output</a>.</p>
+<li>Play around the image until satisfied</li>
 
-<p>Unfortunately, i was not able to proceed as my program was incorrect. The possible reason is that i have used string of length 1000 which can only hold 999 characters and the loop for(i=0;i&lt;=7;i++) has no sense as the maximum number that hold[] can handle is 6. So, probably the right solution would be: <script src='https://gist.github.com/6103050.js'> </script></p>
+<li>Fun to use</li>
+</ol>
 
-<p>This program produced the <a href='/assets/files/alphabet-soup/output-correct.txt'>output</a>, which was the correct output.</p>
+<p>So having such great potentials in the GUI, i have written a SimpleCV-GUI application in python using wxPython. The features of this application are:</p>
+
+<ul>
+<li>Select camera attached to your system</li>
+
+<li>Capture image from the camera and apply features to it</li>
+
+<li>Select image stored in the hard drive</li>
+
+<li>Feature selection</li>
+
+<li>Apply a feature on top of the previous result</li>
+
+<li>Reset the image to its original form</li>
+
+<li>Save image (Images are saved in the directory selected during the image selection process</li>
+</ul>
+
+<p>All these just by a click of the mouse. The rendering system of the SimpleCV was one of the major hurdles in the development of this application, the image needs to be saved several times in the hard-disk and needs to be read many times which consumed lots of memory and space, the camera interface also didn&#8217;t have a much in the API part. SimpleCV-GUI have been developed even though there were many obstacles and there still remains many works to be completed.</p>
+
+<p>Source File: <a href='https://github.com/sushilthe/SimpleCV-GUI' title='SimpleCV-GUI'>SimpleCV-GUI</a></p>
+
+<p>Screen-Shots: <a href='https://github.com/sushilthe/SimpleCV-GUI/tree/master/ScreenShots' title='Screenshots'>SimpleCV GUI under Ubuntu 12.04</a></p>
       </div>
     </div>
   </div>
