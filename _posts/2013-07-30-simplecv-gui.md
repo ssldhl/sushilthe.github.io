@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "SimpleCV Graphical User Interface"
+title:  "SimpleCV GUI"
 date:   2013-07-30 01:15:30
 categories: simplecv python
 ---
+#A graphical user interface for SimpleCV
+
+![SimpleCV GUI](/assets/images/simplecv-gui.png "SimpleCV GUI")
 
 [SimpleCV](http://www.simplecv.org/ "Simple CV") which is one of the easiest image processing library to manipulate/process images either from a camera or files stored locally, written in python programming language currently has a Character User Interface which requires lots of understanding about the programming language itself along with the requirement to remember all the syntax and structures of the SimpleCV.
 

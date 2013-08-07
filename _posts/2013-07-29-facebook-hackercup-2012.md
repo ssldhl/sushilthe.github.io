@@ -5,19 +5,19 @@ date:   2013-07-29 12:42:33
 categories: facebook hackercup
 ---
 
-#What were my mistakes in Facebook Hackercup 2012?
+#My experience with programming challanges
 
-![SimpleCV GUI](/assets/images/simplecv-gui.png "SimpleCV GUI")
+![Facebook Hackercup](/assets/images/hackercup.jpg "Facebook Hackercup")
 
 
 The [Facebook Hacker Cup](https://www.facebook.com/hackercup "Facebook Hacker Cup") is an annual worldwide programming competition where hackers compete against each other for fame, fortune, glory and a shot at the coveted Hacker Cup.
 
 Last year, I took part in Facebook Hacker Cup 2012. There were three brain storming questions presented and solving any one of them would qualify me but i was quite unlucky as i couldn't pass through the qualification round.
 
-The problem that i tried solving was [Alphabet soup]({{ site.url }}/assets/files/alphabet-soup/alphabet-soup.pdf) where i was provided with the [file]({{ site.url }}/assets/files/alphabet-soup/alphabet_soup.txt) to check whether my program would produce the correct result. The result was to be submitted within six minutes time-frame and any programming language could be used so i used the c programming language. The program i had written to solve the problem was: <script src="https://gist.github.com/467f46c5cde7b2422ffe.js"> </script>
+The problem that i tried solving was [Alphabet soup]({{ site.url }}/assets/files/alphabet-soup/alphabet-soup.pdf) where i was provided with the [input]({{ site.url }}/assets/files/alphabet-soup/alphabet_soup.txt) to check whether my program would produce the correct result. The result was to be submitted within six minutes time-frame and any programming language could be used so i used the c programming language. The program i had written to solve the problem was: <script src="https://gist.github.com/467f46c5cde7b2422ffe.js"> </script>
 
 This program produced the [output]({{ site.url }}/assets/files/alphabet-soup/output-bad.txt).
 
-Unfortunately, i was not able to proceed as my program was incorrect. The possible reason is that i have used string of length 1000 which can only hold 999 characters and the loop for(i=0;i<=7;i++) has no sense as the maximum number that hold\[\] can handle is 6. So, probably the right solution would be: {% gist 6103050 %}
+Unfortunately, i was not able to proceed as my program was incorrect. The possible reason is that, i have used string of length 1000 which can only hold 999 characters and the loop for(i=0;i<=7;i++) has no sense as the maximum number that hold\[\] can handle is 6. So, probably the right solution would be: {% gist 6103050 %}
 
-This program produced the [output]({{ site.url }}/assets/files/alphabet-soup/output-correct.txt), which was the correct output.
+This program produced the [output]({{ site.url }}/assets/files/alphabet-soup/output-correct.txt), which i think was the correct output.
