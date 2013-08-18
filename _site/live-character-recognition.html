@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>SimpleCV GUI</title>
+        <title>Live! Character Recognition</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- syntax highlighting CSS -->
@@ -81,53 +81,21 @@
       <div class="bs-docs-section">
         <div class="page-header">
           <h1 id="overview">
-						SimpleCV GUI
+						Live! Character Recognition
 					</h1>
     		</div>
-    		<p class="lead">30 Jul 2013</p>
-				<h2 id='a_graphical_user_interface_for_simplecv'>A graphical user interface for SimpleCV</h2>
+    		<p class="lead">08 Aug 2013</p>
+				<h2 id='texts_from_image'>Texts from Image</h2>
 
-<p><img alt='SimpleCV GUI' src='/assets/images/simplecv-gui.png' /></p>
+<p><img alt='Live! Character Recognition' src='/assets/images/lcr.png' /></p>
 
-<p><a href='http://www.simplecv.org/' title='Simple CV website'>SimpleCV</a> which is one of the easiest image processing library to manipulate/process images either from a camera or files stored locally, written in python programming language currently has a Character User Interface which requires lots of understanding about the programming language itself along with the requirement to remember all the syntax and structures of the SimpleCV.</p>
+<p>Live! Character Recognition was my minor project in which a web camera when held above the image with texts buried in it would give the text as an output. The project was done in Java Programming language.</p>
 
-<p>Having the image processing library in a GUI form will have following advantages:</p>
+<p>The processing of the image was based on <a href='http://cecs.uci.edu/~papers/icme06/pdfs/0001721.pdf' title='Image Processing algorithm'>Multi-scale edge based text extraction system</a>, where image is first scaled and then superimposed to get the desired effect. All the detail explanation of how the project was made can be found in this <a href='/assets/files/live-character-recognition/lcr.pdf'>report</a>.</p>
 
-<ol>
-<li>A user without a bare knowledge of SimpleCV can also easily use it.</li>
+<p>The project was very difficult for me. I had no previous knowledge about image processing and i had never worked in java. Besides these difficulties, the project was completed and i learned a lot about the software development life cycle and the image processing.</p>
 
-<li>No need to remember the structures and the programming language in which the library was written.</li>
-
-<li>Visualize the end results immediately</li>
-
-<li>Play around the image until satisfied</li>
-
-<li>Fun to use</li>
-</ol>
-
-<p>So having such great potentials in the GUI, i have written a SimpleCV-GUI application in python using wxPython. The features of this application are:</p>
-
-<ul>
-<li>Select camera attached to your system</li>
-
-<li>Capture image from the camera and apply features to it</li>
-
-<li>Select image stored in the hard drive</li>
-
-<li>Feature selection</li>
-
-<li>Apply a feature on top of the previous result</li>
-
-<li>Reset the image to its original form</li>
-
-<li>Save image (Images are saved in the directory selected during the image selection process</li>
-</ul>
-
-<p>All these just by a click of the mouse. The rendering system of the SimpleCV was one of the major hurdles in the development of this application, the image needs to be saved several times in the hard-disk and needs to be read many times which consumed lots of memory and space, the camera interface also didn&#8217;t have a much in the API part. SimpleCV-GUI have been developed even though there were many obstacles and there still remains many works to be completed.</p>
-
-<p>Source File: <a href='https://github.com/sushilthe/SimpleCV-GUI' title='SimpleCV-GUI source'>SimpleCV-GUI</a></p>
-
-<p>Screen-Shots: <a href='https://github.com/sushilthe/SimpleCV-GUI/tree/master/ScreenShots' title='Screenshots'>SimpleCV GUI under Ubuntu 12.04</a></p>
+<p>The incomplete and ugly code can be found at: <a href='https://github.com/sushilthe/live_character_recognition' title='Live Character Recognition source'>Github</a></p>
         <hr>
         
           <div id="disqus_thread"></div>

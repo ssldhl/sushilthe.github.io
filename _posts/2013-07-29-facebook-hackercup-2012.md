@@ -5,12 +5,12 @@ date:   2013-07-29 12:42:33
 categories: facebook hackercup
 ---
 
-#My experience with programming challanges
+##My experience with programming challanges
 
-![Facebook Hackercup](/assets/images/hackercup.jpg "Facebook Hackercup")
+![Facebook Hackercup](/assets/images/hackercup.jpg "Facebook Hackercup image")
 
 
-The [Facebook Hacker Cup](https://www.facebook.com/hackercup "Facebook Hacker Cup") is an annual worldwide programming competition where hackers compete against each other for fame, fortune, glory and a shot at the coveted Hacker Cup.
+The [Facebook Hacker Cup](https://www.facebook.com/hackercup "Facebook Hacker Cup website") is an annual worldwide programming competition where hackers compete against each other for fame, fortune, glory and a shot at the coveted Hacker Cup.
 
 Last year, I took part in Facebook Hacker Cup 2012. There were three brain storming questions presented and solving any one of them would qualify me but i was quite unlucky as i couldn't pass through the qualification round.
 

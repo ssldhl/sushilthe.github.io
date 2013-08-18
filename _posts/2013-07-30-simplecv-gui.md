@@ -4,11 +4,11 @@ title:  "SimpleCV GUI"
 date:   2013-07-30 01:15:30
 categories: simplecv python
 ---
-#A graphical user interface for SimpleCV
+##A graphical user interface for SimpleCV
 
-![SimpleCV GUI](/assets/images/simplecv-gui.png "SimpleCV GUI")
+![SimpleCV GUI](/assets/images/simplecv-gui.png "SimpleCV GUI image")
 
-[SimpleCV](http://www.simplecv.org/ "Simple CV") which is one of the easiest image processing library to manipulate/process images either from a camera or files stored locally, written in python programming language currently has a Character User Interface which requires lots of understanding about the programming language itself along with the requirement to remember all the syntax and structures of the SimpleCV.
+[SimpleCV](http://www.simplecv.org/ "Simple CV website") which is one of the easiest image processing library to manipulate/process images either from a camera or files stored locally, written in python programming language currently has a Character User Interface which requires lots of understanding about the programming language itself along with the requirement to remember all the syntax and structures of the SimpleCV.
 
 Having the image processing library in a GUI form will have following advantages:
 
@@ -30,6 +30,6 @@ So having such great potentials in the GUI, i have written a SimpleCV-GUI applic
 
 All these just by a click of the mouse. The rendering system of the SimpleCV was one of the major hurdles in the development of this application, the image needs to be saved several times in the hard-disk and needs to be read many times which consumed lots of memory and space, the camera interface also didn't have a much in the API part. SimpleCV-GUI have been developed even though there were many obstacles and there still remains many works to be completed.
 
-Source File: [SimpleCV-GUI](https://github.com/sushilthe/SimpleCV-GUI "SimpleCV-GUI")
+Source File: [SimpleCV-GUI](https://github.com/sushilthe/SimpleCV-GUI "SimpleCV-GUI source")
 
 Screen-Shots: [SimpleCV GUI under Ubuntu 12.04](https://github.com/sushilthe/SimpleCV-GUI/tree/master/ScreenShots "Screenshots")

@@ -5,7 +5,7 @@ date:   2013-08-07 19:22:20
 categories: facebook hackercup
 ---
 
-#Mistakes taught me how to win
+##Mistakes taught me how to win
 
 Finally, after a year long break it was time for another hackercup. From last year challange i have learned many things and i hoped that this year i would at least be qualified.
 
