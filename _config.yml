@@ -1,4 +1,4 @@
 name: sushilthe's blog
-pygments: true
+highlighter: pygments
 permalink: /:title.html
 exclude: [README.md]
