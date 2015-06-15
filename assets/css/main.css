@@ -443,20 +443,20 @@ body {
 }
 .bs-navbar-top-example {
   -webkit-border-radius: 0 0 4px 4px;
-     -moz-border-radius: 0 0 4px 4px;
-          border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
 }
 .bs-navbar-top-example:after {
   top: auto;
   bottom: 15px;
   -webkit-border-radius: 0 4px 0 4px;
-     -moz-border-radius: 0 4px 0 4px;
-          border-radius: 0 4px 0 4px;
+  -moz-border-radius: 0 4px 0 4px;
+  border-radius: 0 4px 0 4px;
 }
 .bs-navbar-bottom-example {
   -webkit-border-radius: 4px 4px 0 0;
-     -moz-border-radius: 4px 4px 0 0;
-          border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
 }
 .bs-navbar-bottom-example .navbar {
   margin-bottom: 0;
@@ -695,7 +695,7 @@ input.focused {
   outline: 0;
   outline: thin dotted \9; /* IE6-9 */
   -moz-box-shadow: 0 0 8px rgba(82,168,236,.6);
-       box-shadow: 0 0 8px rgba(82,168,236,.6);
+  box-shadow: 0 0 8px rgba(82,168,236,.6);
 }
 
 /* Scrollspy demo on fixed height div */
