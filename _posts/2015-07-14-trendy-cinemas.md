@@ -1,4 +1,4 @@
---
+---
 layout: post
 title:  "Trendy Cinemas"
 date:   2015-07-14 11:46:30
